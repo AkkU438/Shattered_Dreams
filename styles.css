@@ -1,6 +1,7 @@
-ul{
+.navbar{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .nav-item{
     text-decoration: none;
@@ -11,8 +12,52 @@ ul{
     border-radius: 2px;
     margin-left: 5px;
     padding: 20px;
+    position: relative;
+    
 }
-.nav-item > a {
+.nav-item > a{
     text-decoration: none;
     color: white;
+}
+.nav-item:hover{
+    background-color: red;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    display: none;
+    flex-direction: column;
+
+    background-color: black;
+    border: 2px solid pink;
+    min-width: 150px;
+
+    z-index: 999;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a{
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: flex;
+    pointer-events: auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar > .nav-item{
+    height: fit-content;
+    
+}
+
+.dropdown:hover .dropdown-menu:hover{
+    background-color: red;
 }
