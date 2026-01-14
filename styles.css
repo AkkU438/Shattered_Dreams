@@ -1,3 +1,10 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+
 .navbar{
     display: flex;
     justify-content: flex-end;
@@ -58,6 +65,8 @@
     
 }
 
-.dropdown:hover .dropdown-menu:hover{
-    background-color: red;
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
 }
