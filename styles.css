@@ -1,8 +1,12 @@
+body{
+    background-color: bisque;
+}
+
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: bisque;
+
 }
 
 .navbar{
@@ -69,4 +73,21 @@ nav{
     width: 100px;
     height: 100px;
     margin-right: auto;
+}
+
+h1{
+    display: flex; 
+    justify-content: flex-start;
+    margin-left: 220px;  
+    margin-bottom: 0px;  
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-text{
+    width: 30vw;
 }
