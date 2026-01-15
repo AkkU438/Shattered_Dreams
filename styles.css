@@ -91,3 +91,21 @@ h1{
 .main-text{
     width: 30vw;
 }
+
+.footer-class{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-class > li {
+    text-decoration: none;
+    list-style: none;
+    padding: 2px;
+    margin: 0px;
+}
+
+.footer-left{
+    margin: 0px;
+    padding: 0px;
+}
